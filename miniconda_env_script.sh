@@ -29,6 +29,6 @@ mkdir ~/Pluto
 cd ~/Pluto
 PLUTOversion=pluto-4.4-patch3
 wget --no-check-certificate https://plutocode.ph.unito.it/Downloads/${PLUTOversion}.tar.gz #must be updated to correct versions; REALLY should not use "--no-check-certificate"
-tar -xzvf ${PLUTOversion}.tar.gz
+tar -xzvf ${PLUTOversion}.tar.gz #extract PLUTO archive
 
-PLUTOpath=/home/${USER}/Pluto/PLUTO
+PLUTOpath=/home/${USER}/Pluto/PLUTO #set up PLUTO path
