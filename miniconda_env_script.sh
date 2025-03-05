@@ -29,7 +29,7 @@ ln -s /home/${USER}/miniconda3/envs/${envname}/lib/libmpi.so.40.20.2  /home/${US
 
 echo -e "\n\n" >> /home/${USER}/.bashrc
 echo 'export PLUTO_DIR=/home/${USER}/PLUTO' >>  /home/${USER}/.bashrc
-echo 'export PYTHONPATH=/home/tmk5/PLUTO/Tools/pyPLUTO/:${PYTHONPATH}' >> /home/${USER}/.bashrc
+echo 'export PYTHONPATH=/home/${USER}/PLUTO/Tools/pyPLUTO/:${PYTHONPATH}' >> /home/${USER}/.bashrc
 echo 'alias plutosetup="python3 ${PLUTO_DIR}/setup.py"' >> /home/${USER}/.bashrc
 
 source /home/${USER}/.bashrc
